@@ -1,0 +1,1 @@
+Trong project nay demo cách truy cập và cấu hình database, sử dụng mySQL , kết nối jdbc để truy cập dữ liệu, dùng scalikejdbc library

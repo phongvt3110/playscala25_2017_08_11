@@ -1,0 +1,34 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# An example controller showing a sample home page
+GET     /home                           controllers.HomeController.index
+GET     /                               controllers.Frontend.FrontendController.index
+GET     /iCi.com.vn                     controllers.Frontend.FrontendController.index
+GET     /homepage                       controllers.Frontend.FrontendController.homepage
+GET     /testdb                         controllers.Frontend.FrontendController.testdb
+GET     /testslavedb                    controllers.Frontend.TestdbController.testslavedb
+
+GET     /backend                        controllers.Backend.BackendController.index
+GET     /backend/404                    controllers.Backend.BackendController.error404
+GET     /backend/basic-table            controllers.Backend.BackendController.basictable
+GET     /backend/blank                  controllers.Backend.BackendController.blank
+GET     /backend/buttons                controllers.Backend.BackendController.buttons
+GET     /backend/chart_chartjs              controllers.Backend.BackendController.chart_chartjs
+GET     /backend/form-component              controllers.Backend.BackendController.form_component
+GET     /backend/form-validation              controllers.Backend.BackendController.form_validation
+GET     /backend/general                controllers.Backend.BackendController.general
+GET     /backend/grids                  controllers.Backend.BackendController.grids
+GET     /backend/login                  controllers.Backend.BackendController.login
+GET     /backend/profile                controllers.Backend.BackendController.profile
+GET     /backend/widgets                controllers.Backend.BackendController.widgets
+GET     /backend/useremail                controllers.Backend.BackendController.show_user()
+
+# An example controller showing how to use dependency injection
+GET     /count                      controllers.CountController.count
+# An example controller showing how to write asynchronous code
+GET     /message                    controllers.AsyncController.message
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
