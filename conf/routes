@@ -15,15 +15,15 @@ GET     /backend/404                    controllers.Backend.BackendController.er
 GET     /backend/basic-table            controllers.Backend.BackendController.basictable
 GET     /backend/blank                  controllers.Backend.BackendController.blank
 GET     /backend/buttons                controllers.Backend.BackendController.buttons
-GET     /backend/chart_chartjs              controllers.Backend.BackendController.chart_chartjs
-GET     /backend/form-component              controllers.Backend.BackendController.form_component
-GET     /backend/form-validation              controllers.Backend.BackendController.form_validation
+GET     /backend/chart_chartjs          controllers.Backend.BackendController.chart_chartjs
+GET     /backend/form-component         controllers.Backend.BackendController.form_component
+GET     /backend/form-validation        controllers.Backend.BackendController.form_validation
 GET     /backend/general                controllers.Backend.BackendController.general
 GET     /backend/grids                  controllers.Backend.BackendController.grids
 GET     /backend/login                  controllers.Backend.BackendController.login
 GET     /backend/profile                controllers.Backend.BackendController.profile
 GET     /backend/widgets                controllers.Backend.BackendController.widgets
-GET     /backend/useremail                controllers.Backend.BackendController.show_user()
+GET     /backend/useremail              controllers.Backend.BackendController.show_user()
 
 # An example controller showing how to use dependency injection
 GET     /count                      controllers.CountController.count

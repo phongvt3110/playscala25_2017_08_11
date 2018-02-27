@@ -1,4 +1,4 @@
-name := """play25"""
+name := """play25-scalikejdbc"""
 
 version := "1.0-SNAPSHOT"
 
